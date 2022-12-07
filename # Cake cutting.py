@@ -1,7 +1,7 @@
 # Cake Question
 
 
-cakeangle=eval(input("Enter the Angle of the Cake: "))
+cakeangle=eval(input("Enter the Angle of the Cake: ")) #Angle of cutting cake
 N=eval(input("Enter N: "))
 if(cakeangle%N==0):
     print("YES the cake will cut in equal pieces of size %d"%N)
